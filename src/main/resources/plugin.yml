@@ -1,0 +1,17 @@
+name: CreepHer
+version: '${project.version}'
+main: be.renaud11232.plugin.creepher.CreepHer
+api-version: 1.13
+authors: [ Renaud11232 ]
+description: A plugin simulating creeper noises to scare your (soon to be ex) friends
+commands:
+  creepher:
+    description: Tssssss Boom
+    usage: /<command> <player>
+    permission: creepher.creep
+    aliases:
+      - creep
+permissions:
+  creepher.creep:
+    description: Allows a user to use CreepHer
+    default: op
